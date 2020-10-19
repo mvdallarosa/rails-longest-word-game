@@ -1,0 +1,72 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.letters {
+  display: flex;
+  list-style: inline;
+  list-style-type: none;
+  padding: 0;
+}
+
+.letters li {
+  padding: 20px 35px;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-right: 18px;
+  background-color: rgba(48, 136, 145, 0.6);
+  color: white;
+  border: 3px solid rgba(48, 136, 145, 0.8)
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: rgb(50, 50, 50)
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 10px;
+  margin: 20px;
+}
+
+p {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+form {
+  display: flex;
+  font-size: 20px;
+}
+
+a {
+  color: #649FD1;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
